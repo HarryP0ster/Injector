@@ -7,13 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Un4seen.Bass;
-using Un4seen.Bass.Misc;
-using Un4seen.BassAsio;
 using agorartc;
 using System.Diagnostics;
-using MaterialSkin;
-using MaterialSkin.Controls;
 
 namespace RSI_X_Desktop.forms
 {
@@ -316,7 +311,6 @@ namespace RSI_X_Desktop.forms
             AgoraObject.LeaveSrcChannel();
             AgoraObject.LeaveTranslChannel();
             AgoraObject.LeaveTargetChannel();
-            BassAsio.BASS_ASIO_Free();
             CancelPublish();
             Owner.Show();
             Owner.Refresh();

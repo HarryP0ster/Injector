@@ -41,20 +41,137 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="forms\Xtractor.cs" />
+    <Compile Remove="forms\Xtractor.Designer.cs" />
     <Compile Remove="X-tractor.cs" />
     <Compile Remove="X-tractor.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="forms\Xtractor.resx" />
     <EmbeddedResource Remove="X-tractor.resx" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BASS.ASIO" Version="1.3.1.2" />
+    <None Remove="bass.dll" />
+    <None Remove="Bass.Net.dll" />
+    <None Remove="Bass.Net.xml" />
+    <None Remove="bassasio.dll" />
+    <None Remove="Resources\anime.png" />
+    <None Remove="Resources\asdasd.png" />
+    <None Remove="Resources\background _compressed.jpg" />
+    <None Remove="Resources\background.jpg" />
+    <None Remove="Resources\chat.png" />
+    <None Remove="Resources\chat1.png" />
+    <None Remove="Resources\Component 2.png" />
+    <None Remove="Resources\Component 21.png" />
+    <None Remove="Resources\Component 22.png" />
+    <None Remove="Resources\contacts.png" />
+    <None Remove="Resources\devices.png" />
+    <None Remove="Resources\dump.png" />
+    <None Remove="Resources\ear.png" />
+    <None Remove="Resources\full screen.png" />
+    <None Remove="Resources\icons8-звук-динамика-50.png" />
+    <None Remove="Resources\leave.png" />
+    <None Remove="Resources\leave1.png" />
+    <None Remove="Resources\leave2.png" />
+    <None Remove="Resources\LiveIcon.png" />
+    <None Remove="Resources\LiveIcon1.png" />
+    <None Remove="Resources\logotype.jpg" />
+    <None Remove="Resources\logotype.png" />
+    <None Remove="Resources\logotype_black.png" />
+    <None Remove="Resources\logotype_compressed.png" />
+    <None Remove="Resources\logo_new_h.png" />
+    <None Remove="Resources\logo_new_v.png" />
+    <None Remove="Resources\megaphone.png" />
+    <None Remove="Resources\megaphone2.png" />
+    <None Remove="Resources\message.png" />
+    <None Remove="Resources\mic.png" />
+    <None Remove="Resources\mic2.png" />
+    <None Remove="Resources\microphone.png" />
+    <None Remove="Resources\mute.png" />
+    <None Remove="Resources\mute1.png" />
+    <None Remove="Resources\no-microphone.png" />
+    <None Remove="Resources\no-video.png" />
+    <None Remove="Resources\rsi-android-100.png" />
+    <None Remove="Resources\rsi-audio-100.png" />
+    <None Remove="Resources\rsi-audio-wave-100.png" />
+    <None Remove="Resources\rsi-close-window-100.png" />
+    <None Remove="Resources\rsi-earbud-headphones-100.png" />
+    <None Remove="Resources\rsi-external-link-100.png" />
+    <None Remove="Resources\rsi-gear-100.png" />
+    <None Remove="Resources\rsi-headphones-100.png" />
+    <None Remove="Resources\rsi-iphone-x-100.png" />
+    <None Remove="Resources\rsi-low-volume-100.png" />
+    <None Remove="Resources\rsi-merge-vertical-100.png" />
+    <None Remove="Resources\rsi-messaging-100.png" />
+    <None Remove="Resources\rsi-microphone-100-red.png" />
+    <None Remove="Resources\rsi-microphone-100-yellowish.png" />
+    <None Remove="Resources\rsi-microphone-100.png" />
+    <None Remove="Resources\rsi-microphone-100_red.png" />
+    <None Remove="Resources\rsi-microphone-off-100.png" />
+    <None Remove="Resources\rsi-mute-100-white.png" />
+    <None Remove="Resources\rsi-mute-100.png" />
+    <None Remove="Resources\rsi-null-symbol-100.png" />
+    <None Remove="Resources\rsi-pause-100.png" />
+    <None Remove="Resources\rsi-play-100.png" />
+    <None Remove="Resources\rsi-privacy-100.png" />
+    <None Remove="Resources\rsi-reset-100.png" />
+    <None Remove="Resources\rsi-stop-100.png" />
+    <None Remove="Resources\rsi-video-call-100-white.png" />
+    <None Remove="Resources\rsi-video-call-100.png" />
+    <None Remove="Resources\rsi-video-call-1001-white.png" />
+    <None Remove="Resources\rsi-video-call-1001.png" />
+    <None Remove="Resources\rsi-voice-100-white.png" />
+    <None Remove="Resources\rsi-voice-100.png" />
+    <None Remove="Resources\rsi-voice-id-100-red.png" />
+    <None Remove="Resources\rsi-voice-id-100.png" />
+    <None Remove="Resources\RSI_HR_AUDSET.png" />
+    <None Remove="Resources\RSI_HR_CAMOFF.png" />
+    <None Remove="Resources\RSI_HR_CAMON.png" />
+    <None Remove="Resources\RSI_HR_EXIT.png" />
+    <None Remove="Resources\RSI_HR_EXIT1.png" />
+    <None Remove="Resources\RSI_HR_FULLSCREEN.png" />
+    <None Remove="Resources\RSI_HR_HOME.png" />
+    <None Remove="Resources\RSI_HR_HOME1.png" />
+    <None Remove="Resources\RSI_HR_LEFT.png" />
+    <None Remove="Resources\RSI_HR_LIVE.png" />
+    <None Remove="Resources\RSI_HR_MICOFF.png" />
+    <None Remove="Resources\RSI_HR_MICON.png" />
+    <None Remove="Resources\RSI_HR_PUBLISH.png" />
+    <None Remove="Resources\RSI_HR_PUBLISH_ACTIVE.png" />
+    <None Remove="Resources\RSI_HR_RIGHT.png" />
+    <None Remove="Resources\RSI_HR_SETTINGS.png" />
+    <None Remove="Resources\RSI_HR_SETTINGS1.png" />
+    <None Remove="Resources\RSI_HR_SETTINGS2.png" />
+    <None Remove="Resources\RSI_HR_SETTINGS3.png" />
+    <None Remove="Resources\RSI_HR_VOLUME.png" />
+    <None Remove="Resources\RSI_LIVE.png" />
+    <None Remove="Resources\rsi_x_xr18_white.jpg" />
+    <None Remove="Resources\rsi_x_xr18__black.jpg" />
+    <None Remove="Resources\screen sharing.png" />
+    <None Remove="Resources\screen sharing1.png" />
+    <None Remove="Resources\screen_share.png" />
+    <None Remove="Resources\settings.png" />
+    <None Remove="Resources\speaker 1.png" />
+    <None Remove="Resources\strelka.png" />
+    <None Remove="Resources\vid.png" />
+    <None Remove="Resources\video-conference.png" />
+    <None Remove="Resources\video.png" />
+    <None Remove="Resources\video1.png" />
+    <None Remove="Resources\video_call_empty.png" />
+    <None Remove="Resources\webcam.png" />
+    <None Remove="Resources\лого.png" />
+    <None Remove="Resources\микрофон.png" />
+    <None Remove="Resources\плашка %281%29.png" />
+    <None Remove="Resources\плашка %281%291.png" />
+    <None Remove="Resources\плашка слева.png" />
+    <None Remove="Resources\плашка.png" />
+    <None Remove="Resources\спикер.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.6" />
-    <PackageReference Include="ManagedBass" Version="3.0.0" />
-    <PackageReference Include="ManagedBass.Asio" Version="3.0.0" />
-    <PackageReference Include="MaterialSkin.2.NetCore" Version="2.2.1" />
     <PackageReference Include="ReaLTaiizor" Version="3.7.8.5" />
     <PackageReference Include="SocketIOClient" Version="2.2.3" />
     <PackageReference Include="SocketIOClient.Newtonsoft.Json" Version="2.2.1" />
@@ -62,14 +179,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\agorartc\agorartc\agorartc\agorartc.csproj" />
-    <ProjectReference Include="..\ConsoleApp1\appIn.csproj" />
     <ProjectReference Include="..\ConsoleOutput\appOut.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Bass.Net">
-      <HintPath>library\Bass.Net.dll</HintPath>
-    </Reference>
   </ItemGroup>
   
     <ItemGroup>
@@ -148,15 +258,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="agora_rtc_sdk.lib">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="bass.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Bass.Net.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="bassasio.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="iris.dll">

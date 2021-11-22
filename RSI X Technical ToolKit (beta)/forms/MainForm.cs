@@ -49,9 +49,7 @@ namespace RSI_X_Desktop.forms
             if (AgoraObject.JoinRoom(code))
             {
                 Hide();
-                Xtractor xtractor = new();
-                AgoraObject.CurrentForm = CurForm.FormEngineer;
-                xtractor.Show(this);
+                AgoraObject.CurrentForm = CurForm.FormEngineer2;
                 Ingestor injector = new();
                 injector.Show(this);
             }
