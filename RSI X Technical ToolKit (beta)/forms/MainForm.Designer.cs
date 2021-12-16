@@ -362,9 +362,9 @@ namespace RSI_X_Desktop.forms
             this.labelBeta.Location = new System.Drawing.Point(461, 0);
             this.labelBeta.Margin = new System.Windows.Forms.Padding(50, 0, 5, 0);
             this.labelBeta.Name = "labelBeta";
-            this.labelBeta.Size = new System.Drawing.Size(74, 36);
+            this.labelBeta.Size = new System.Drawing.Size(71, 36);
             this.labelBeta.TabIndex = 1;
-            this.labelBeta.Text = "N-JECTOR";
+            this.labelBeta.Text = "INJECTOR";
             // 
             // labelLogo
             // 
@@ -399,6 +399,7 @@ namespace RSI_X_Desktop.forms
             this.Text = "RSI EXCHANGE INJECTOR";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.Resize += new System.EventHandler(this.MainForm_Resize);
             this.formTheme1.ResumeLayout(false);
             this.tableLayoutPanelMain.ResumeLayout(false);

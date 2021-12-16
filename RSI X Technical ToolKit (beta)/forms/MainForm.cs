@@ -53,6 +53,8 @@ namespace RSI_X_Desktop.forms
                 Ingestor injector = new();
                 injector.Show(this);
             }
+            else
+                NewTextBox.Clear();
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -149,6 +151,11 @@ namespace RSI_X_Desktop.forms
         private void TimeLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void MainForm_Shown(object sender, EventArgs e)
+        {
+            NewTextBox.Focus();
         }
     }
 }
