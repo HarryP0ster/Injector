@@ -77,7 +77,7 @@ namespace RSI_X_Desktop.forms
             this.formTheme1.SmartBounds = false;
             this.formTheme1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.formTheme1.TabIndex = 0;
-            this.formTheme1.Text = "RSI EXCHANGE INJECTOR";
+            this.formTheme1.Text = "RSI EXCHANGE EXTRACTOR";
             this.formTheme1.Click += new System.EventHandler(this.formTheme1_Click);
             // 
             // controlBox1
@@ -149,7 +149,7 @@ namespace RSI_X_Desktop.forms
             this.VersionLabel.Location = new System.Drawing.Point(5, 0);
             this.VersionLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.VersionLabel.Name = "VersionLabel";
-            this.VersionLabel.Size = new System.Drawing.Size(173, 36);
+            this.VersionLabel.Size = new System.Drawing.Size(142, 36);
             this.VersionLabel.TabIndex = 94;
             this.VersionLabel.Text = "RSI X Software (NET.CORE 5.0)";
             this.VersionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -161,10 +161,10 @@ namespace RSI_X_Desktop.forms
             this.LocalTimeLabel.Dock = System.Windows.Forms.DockStyle.Right;
             this.LocalTimeLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.LocalTimeLabel.ForeColor = System.Drawing.Color.Gray;
-            this.LocalTimeLabel.Location = new System.Drawing.Point(654, 0);
+            this.LocalTimeLabel.Location = new System.Drawing.Point(666, 0);
             this.LocalTimeLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LocalTimeLabel.Name = "LocalTimeLabel";
-            this.LocalTimeLabel.Size = new System.Drawing.Size(69, 36);
+            this.LocalTimeLabel.Size = new System.Drawing.Size(57, 36);
             this.LocalTimeLabel.TabIndex = 93;
             this.LocalTimeLabel.Text = "Local Time";
             this.LocalTimeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -176,10 +176,10 @@ namespace RSI_X_Desktop.forms
             this.TimeLabel.Dock = System.Windows.Forms.DockStyle.Right;
             this.TimeLabel.Font = new System.Drawing.Font("Bahnschrift Condensed", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TimeLabel.ForeColor = System.Drawing.Color.Gray;
-            this.TimeLabel.Location = new System.Drawing.Point(736, 0);
+            this.TimeLabel.Location = new System.Drawing.Point(743, 0);
             this.TimeLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.TimeLabel.Name = "TimeLabel";
-            this.TimeLabel.Size = new System.Drawing.Size(39, 36);
+            this.TimeLabel.Size = new System.Drawing.Size(32, 36);
             this.TimeLabel.TabIndex = 92;
             this.TimeLabel.Text = "12:00";
             this.TimeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -285,10 +285,10 @@ namespace RSI_X_Desktop.forms
             this.dungeonHeaderLabel1.BackColor = System.Drawing.Color.Transparent;
             this.dungeonHeaderLabel1.Font = new System.Drawing.Font("Bahnschrift Condensed", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dungeonHeaderLabel1.ForeColor = System.Drawing.Color.White;
-            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(279, 10);
+            this.dungeonHeaderLabel1.Location = new System.Drawing.Point(298, 16);
             this.dungeonHeaderLabel1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.dungeonHeaderLabel1.Name = "dungeonHeaderLabel1";
-            this.dungeonHeaderLabel1.Size = new System.Drawing.Size(218, 33);
+            this.dungeonHeaderLabel1.Size = new System.Drawing.Size(179, 27);
             this.dungeonHeaderLabel1.TabIndex = 82;
             this.dungeonHeaderLabel1.Text = "Enter conference code:";
             // 
@@ -296,11 +296,11 @@ namespace RSI_X_Desktop.forms
             // 
             this.NewTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NewTextBox.Font = new System.Drawing.Font("Bahnschrift Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NewTextBox.Location = new System.Drawing.Point(286, 66);
+            this.NewTextBox.Location = new System.Drawing.Point(286, 71);
             this.NewTextBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.NewTextBox.Mask = "0000-0000";
             this.NewTextBox.Name = "NewTextBox";
-            this.NewTextBox.Size = new System.Drawing.Size(204, 56);
+            this.NewTextBox.Size = new System.Drawing.Size(204, 46);
             this.NewTextBox.TabIndex = 91;
             this.NewTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.NewTextBox.Click += new System.EventHandler(this.NewTextBox_Click);
@@ -346,10 +346,10 @@ namespace RSI_X_Desktop.forms
             this.labelVersion.Dock = System.Windows.Forms.DockStyle.Right;
             this.labelVersion.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelVersion.ForeColor = System.Drawing.Color.White;
-            this.labelVersion.Location = new System.Drawing.Point(189, 0);
+            this.labelVersion.Location = new System.Drawing.Point(218, 0);
             this.labelVersion.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(160, 36);
+            this.labelVersion.Size = new System.Drawing.Size(131, 36);
             this.labelVersion.TabIndex = 0;
             this.labelVersion.Text = "DESKTOP VERSION";
             // 
@@ -359,12 +359,12 @@ namespace RSI_X_Desktop.forms
             this.labelBeta.Dock = System.Windows.Forms.DockStyle.Left;
             this.labelBeta.Font = new System.Drawing.Font("Bahnschrift Condensed", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelBeta.ForeColor = System.Drawing.Color.White;
-            this.labelBeta.Location = new System.Drawing.Point(461, 0);
-            this.labelBeta.Margin = new System.Windows.Forms.Padding(50, 0, 5, 0);
+            this.labelBeta.Location = new System.Drawing.Point(451, 0);
+            this.labelBeta.Margin = new System.Windows.Forms.Padding(40, 0, 5, 0);
             this.labelBeta.Name = "labelBeta";
-            this.labelBeta.Size = new System.Drawing.Size(71, 36);
+            this.labelBeta.Size = new System.Drawing.Size(84, 36);
             this.labelBeta.TabIndex = 1;
-            this.labelBeta.Text = "INJECTOR";
+            this.labelBeta.Text = "EXTRACTOR";
             // 
             // labelLogo
             // 
@@ -372,10 +372,10 @@ namespace RSI_X_Desktop.forms
             this.labelLogo.AutoSize = true;
             this.labelLogo.Font = new System.Drawing.Font("Bahnschrift Condensed", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelLogo.ForeColor = System.Drawing.Color.White;
-            this.labelLogo.Location = new System.Drawing.Point(138, 0);
+            this.labelLogo.Location = new System.Drawing.Point(189, 5);
             this.labelLogo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.labelLogo.Name = "labelLogo";
-            this.labelLogo.Size = new System.Drawing.Size(500, 101);
+            this.labelLogo.Size = new System.Drawing.Size(397, 96);
             this.labelLogo.TabIndex = 80;
             this.labelLogo.Text = "RSI EXCHANGE";
             // 
@@ -396,7 +396,7 @@ namespace RSI_X_Desktop.forms
             this.MinimumSize = new System.Drawing.Size(144, 67);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RSI EXCHANGE INJECTOR";
+            this.Text = "RSI EXCHANGE EXTRACTOR";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Shown += new System.EventHandler(this.MainForm_Shown);
