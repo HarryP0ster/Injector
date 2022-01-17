@@ -50,7 +50,7 @@ namespace RSI_X_Desktop.forms
             {
                 Hide();
                 AgoraObject.CurrentForm = CurForm.FormEngineer2;
-                Ingestor injector = new();
+                Extractor injector = new();
                 injector.Show(this);
             }
             else

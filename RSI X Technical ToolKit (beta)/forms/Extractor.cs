@@ -12,7 +12,7 @@ using System.Diagnostics;
 
 namespace RSI_X_Desktop.forms
 {
-    public partial class Ingestor : Form
+    public partial class Extractor : Form
     {
         private string HostName = string.Empty;
         //Публичный класс, который описывает пары языковых кнопок и списки подключенного оборудования
@@ -94,7 +94,7 @@ namespace RSI_X_Desktop.forms
         List<BtnCmbPair> BtnCmbPairs2 = new();
         List<Process> XAgora = new();
 
-        public Ingestor()
+        public Extractor()
         {
             InitializeComponent();
             audioOutDeviceManager = AgoraObject.Rtc.CreateAudioPlaybackDeviceManager();

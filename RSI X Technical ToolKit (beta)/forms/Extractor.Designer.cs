@@ -1,7 +1,7 @@
 ﻿
 namespace RSI_X_Desktop.forms
 {
-    partial class Ingestor
+    partial class Extractor
     {
         /// <summary>
         /// Required designer variable.
